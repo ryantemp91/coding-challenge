@@ -2,7 +2,7 @@
 //  TakeHomeApp.swift
 //  Shared
 //
-//  Created by Ryan Cochrane on 7/27/22.
+//  Created by Ryan Cochrane on 7/28/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct TakeHomeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ContentViewModel())
         }
     }
 }
